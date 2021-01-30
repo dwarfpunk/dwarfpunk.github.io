@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------
+    License:        CC0
+-----------------------------------------------------------------------------*/
+*
+{
+    padding:                           0;
+    margin:                            0;
+    line-height:                       1.5;
+    scroll-behavior:                   smooth;
+}
+
+body
+{
+    background:                        #333;
+    font-family:                       Roboto, Sans, Helvetica;
+    font-size:                         16px;
+    color:                             #CCC;   
+}
+a
+{
+    color:                             #CCC;    
+}
+nav
+{
+    height:                            100vh;
+    width:                             30%;
+    position:                          fixed;
+    overflow:                          hidden;
+    text-align:                        right;
+    padding-top:                       10%;
+
+}
+nav a
+{
+    font-weight:                       bold;
+    text-decoration:                   none;
+    color:                             #CCC;    
+}
+article
+{
+    position:                          relative;
+    height:                            100vh;
+    float:                             left;
+    margin-left:                       30%;
+    width:                             65%;
+    text-align:                        left;
+    padding-left:                      5%;
+    padding-top:                       10%;
+}
+h1
+{
+    margin-bottom:                     16px;
+    line-height:                       1;    
+}
+
